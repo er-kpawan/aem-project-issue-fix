@@ -1,0 +1,10 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/asp",
+        "create path (nt:unstructured) /content/dam/asp/jcr:content",
+        "set properties on /content/dam/asp/jcr:content",
+        "set cq:conf{String} to /conf/asp",
+        "set jcr:title{String} to \"AEM Sample project\"",
+        "end"
+    ]
+}
